@@ -1,0 +1,48 @@
+<resources>
+    <dimen name="dp_4x">4.0dip</dimen>
+    <dimen name="dp_8x">8.0dip</dimen>
+    <dimen name="sp_small1">14.0sp</dimen>
+    <dimen name="sp_small">14.0sp</dimen>
+    <dimen name="sp_medium">18.0sp</dimen>
+    <dimen name="sp_large">20.0sp</dimen>
+    <dimen name="drop_down_size">30.0dip</dimen>
+    <dimen name="h_RLHeader_height">65.0dip</dimen>
+    <dimen name="h_btn_width">40.0dip</dimen>
+    <dimen name="h_btn_marginRight">2.0dip</dimen>
+    <dimen name="p_btn_Width">40.0dip</dimen>
+    <dimen name="p_btn_marginRight">12.0dip</dimen>
+    <dimen name="p_tv_marginLeft">2.0dip</dimen>
+    <dimen name="p_LL_btns_height">220.0dip</dimen>
+    <dimen name="p_btnRight_marginRight">20.0dip</dimen>
+    <dimen name="p_btnRight_width">50.0dip</dimen>
+    <dimen name="c_gvCards_horizontalSpacing">2.0dip</dimen>
+    <dimen name="inflate_containerheight">50.0dip</dimen>
+    <dimen name="d_dialog_width">300.0dip</dimen>
+    <dimen name="d_btn_width">100.0dip</dimen>
+    <dimen name="d_btn_height">50.0dip</dimen>
+    <dimen name="d_dialog_height">150.0dip</dimen>
+    <dimen name="d_tvDescription_PaddingTop">8.0dip</dimen>
+    <dimen name="d_tvDescription_height">40.0dip</dimen>
+    <dimen name="d_margin">12.0dip</dimen>
+    <dimen name="c_btn_width">38.0dip</dimen>
+    <dimen name="c_btn_marginRight">4.0dip</dimen>
+    <dimen name="d_text_etText_width">270.0dip</dimen>
+    <dimen name="d_text_etText_height">120.0dip</dimen>
+    <dimen name="d_text_etText_padding">15.0dip</dimen>
+    <dimen name="d_text_btnWidth">35.0dip</dimen>
+    <dimen name="d_text_btnMargin">10.0dip</dimen>
+    <dimen name="d_text_btnMarginTop">15.0dip</dimen>
+    <dimen name="d_text_size">0.0dip</dimen>
+    <dimen name="item_parent_width">150.0dip</dimen>
+    <dimen name="item_parent_height">75.0dip</dimen>
+    <dimen name="item_parent_padding">2.0dip</dimen>
+    <dimen name="item_SeperatorWidth">1.0dip</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="item_offset">0dp</dimen>
+    <dimen name="card_insets">0dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Notes</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Default Language</string>
+    <string name="values">values</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="write_your_message">Write Your Text</string>
+    <string name="your_message">Your Message</string>
+    <string name="font_style">Font Style</string>
+    <string name="edit_text">Edit Text</string>
+    <string name="color">Color</string>
+    <string name="size">Size</string>
+    <string name="saved_successfully">Image Saved</string>
+    <string name="message">Message</string>
+    <string name="share">Share</string>
+    <string name="save">Save</string>
+    <string name="font">Font</string>
+    <string name="text">text</string>
+    <string name="style">style</string>
+    <string name="tilt">tilt</string>
+    <string name="move">move</string>
+    <string name="add_text">Add Text</string>
+    <string name="load_image">load image</string>
+    <string name="rotate">rotate image</string>
+    <string name="preview">preview</string>
+
+    <string name="spinner_title">Select Sound</string>
+    <string name="ur_ph_kb">Urdu Phonetic Keyboard</string>
+    <string name="ps_kb">Pashto Keyboard</string>
+    <string name="sndh_kb">Sindhi Keyboard</string>
+    <string name="ur_al_kb">Urdu Alphabetic Keyboard</string>
+    <string name="eng_kb">English Keyboard</string>
+
+    <string name="MY_STRING">&amp;</string>
+
+    <string name="progress_dialog">Initializing</string>
+    <string name="please_wait">Please wait..</string>
+    <string name="title">"Delete Item"</string>
+    <string name="title_language">Select Language</string>
+    <string name="choose">Choose</string>
+    <string name="content">Are you sure to delete item? </string>
+    <string name="agree">Yes</string>
+    <string name="disagree">Cancel</string>
+
+    <string name="title_exit">"Exit App"</string>
+    <string name="title_delete">"Delete All Notes"</string>
+    <string name="content_exit">Are you sure to exit app? </string>
+    <string name="content_delete">Are you sure to delete all items? </string>
+    <string name="yes">Yes</string>
+    <string name="no">Cancel</string>
+
+
+    <string name="action_delete">Delete All</string>
+
+</resources>

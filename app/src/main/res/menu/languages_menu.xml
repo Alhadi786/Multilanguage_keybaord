@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.androidtextonimageapp.MainActivity" >
+
+    <item
+        android:id="@+id/defaultkb"
+        android:icon="@drawable/default_kb"
+        android:title="Default"/>
+    <item
+        android:id="@+id/arbKB"
+        android:title="Arabic"
+        android:icon="@drawable/arabic"/>
+    <item
+        android:id="@+id/engKB"
+        android:title="English"
+        android:icon="@drawable/eng"/>
+    <item
+        android:id="@+id/frenchKB"
+        android:title="French"
+        android:icon="@drawable/fransic"/>
+    <item
+        android:id="@+id/hndKB"
+        android:title="Hindi"
+        android:icon="@drawable/hindi"/>
+    
+    <item
+        android:id="@+id/psKB"
+        android:title="Pashto"
+        android:icon="@drawable/pashto"/>
+    <item
+        android:id="@+id/prsKB"
+        android:title="Persian"
+        android:icon="@drawable/farsi"/>
+    <item
+        android:id="@+id/sndhKB"
+        android:title="Sindhi"
+        android:icon="@drawable/sindi"/>
+    <item
+        android:id="@+id/urPhKB"
+        android:title="Urdu Phonetic"
+        android:icon="@drawable/urdu"/>
+    <item
+        android:id="@+id/urAlpKB"
+        android:title="Urdu Alphabetic"
+        android:icon="@drawable/urdu_alphbatic"/>
+</menu>

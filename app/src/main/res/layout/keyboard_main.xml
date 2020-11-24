@@ -1,0 +1,308 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/xMLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a0a0a0"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:weightSum="10" >
+
+    <!-- <com.google.android.gms.ads.AdView -->
+    <!-- android:id="@+id/adView" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_gravity="top" -->
+    <!-- ads:adSize="BANNER" -->
+    <!-- ads:adUnitId="@string/banner" -->
+    <!-- android:visibility="gone" > -->
+    <!-- </com.google.android.gms.ads.AdView> -->
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:weightSum="1" >
+
+        <EditText
+            android:id="@+id/xEt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/edittextshape"
+            android:ems="10"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="top"
+            android:hint=""
+            android:imeOptions="actionDone"
+            android:padding="15dp"
+            android:singleLine="false"
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomlay"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="center"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="10" >
+
+        <LinearLayout
+            android:id="@+id/xK1"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1.5"
+            android:background="@drawable/edittextshape"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="3dip"
+            android:weightSum="5" >
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/buttonselector"
+                android:text="Cancel"
+                android:textColor="@color/SSkyBlue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/setting"
+                android:layout_width="0dp"
+                android:layout_height="25dip"
+                android:layout_weight="2"
+               android:gravity="center"
+                android:src="@drawable/setting"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/done"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/buttonselector"
+                android:text="Done"
+                android:textColor="@color/SSkyBlue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_weight="8.5"
+            android:background="@drawable/keyboardlayshape"
+            android:gravity="center" >
+
+            <include
+                android:id="@+id/xKeyBoard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/urdu_keyboard"
+                android:visibility="visible" />
+
+            <include
+                android:id="@+id/xKeyBoard2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/urdu_keyboard2"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/xKeyBoardSC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/urdu_keyboardsc"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/xKeyBoardEn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/eng_keyborad"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/xKeyBoardEnCAP"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/eng_keyboardc"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/xKeyBoardEnSch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/eng_keybordsc"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/xKeyBoardPs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/pashto_keyboard"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/xKeyBoardPs2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/pashto_keybord2"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/xKeyBoardPsSc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/pashto_keybordsc"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/xKeyBoardSndh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/sindhi_keyboard"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/xKeyBoardSndh2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/sindhi_keyboard2"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/xKeyBoardSndhSc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/sindhi_keyboardsc"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/xKeyBoardUrAlp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/urdu_alp_keyboard"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/xKeyBoardUrAlp2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/urdu_alp_keybord2"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/xKeyBoardUrAlpSc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/urdu_alp_keyboardsc"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/mHndKeyBoard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/hindi_keyboard"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/mHndKeyBoard2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/hindi_keyboard2"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/mHndKeyBoardSC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/hindi_keyboardsc"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/mPrsKeyBoard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/persian_keyboard"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/mPrsKeyBoard2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/persian_keyboard2"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/mPrsKeyBoardSC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/persian_keyboardsc"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/mArbKeyBoard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/arabic_keyboard"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/mArbKeyBoard2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/arabic_keyboard2"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/mArbKeyBoardSC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/arabic_keyboardsc"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/mFrenchKeyBoard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/french_keyboard"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/mFrenchKeyBoardC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/french_keyboardc"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/mFrenchKeyBoardSC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/french_keyboardsc"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

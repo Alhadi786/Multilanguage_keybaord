@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hebrwKeyboardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="center"
+    android:layout_marginBottom="2dip"
+    android:background="#a0a0a0"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+    <!-- android:background="#A9ABAE" -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="3dip"
+        android:weightSum="4" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:baselineAligned="true"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <Button
+                android:id="@+id/prs1"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="۱"
+                android:text="۱" />
+
+            <Button
+                android:id="@+id/prs2"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="۲"
+                android:text="۲" />
+
+            <Button
+                android:id="@+id/prs3"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="۳"
+                android:text="۳" />
+
+            <Button
+                android:id="@+id/prs4"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="۴"
+                android:text="۴" />
+
+            <Button
+                android:id="@+id/prs5"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="۵"
+                android:text="۵" />
+
+            <Button
+                android:id="@+id/prs6"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="۶"
+                android:text="۶" />
+
+            <Button
+                android:id="@+id/prs7"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="۷"
+                android:text="۷" />
+
+            <Button
+                android:id="@+id/prs8"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="۸"
+                android:text="۸" />
+
+            <Button
+                android:id="@+id/prs9"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="۹"
+                android:text="۹" />
+
+            <Button
+                android:id="@+id/prszr"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="۰"
+                android:text="۰" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:baselineAligned="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+
+            <Button
+                android:id="@+id/prssp1"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="!"
+                android:text="!" />
+
+            <Button
+                android:id="@+id/prssp2"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="~"
+                android:text="~" />
+
+            <Button
+                android:id="@+id/prssp3"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="“"
+                android:text="“" />
+
+            <Button
+                android:id="@+id/prssp4"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="”"
+                android:text="”" />
+
+            <Button
+                android:id="@+id/prssp5"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="("
+                android:text="(" />
+
+            <Button
+                android:id="@+id/prssp6"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag=")"
+                android:text=")" />
+
+            <Button
+                android:id="@+id/prssp7"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="."
+                android:text=" ." />
+
+            <Button
+                android:id="@+id/prssp8"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag=":"
+                android:text=":" />
+
+            <Button
+                android:id="@+id/prssp9"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="٪"
+                android:text="٪" />
+            <Button
+                android:id="@+id/prsspx"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="&amp;"
+                android:text="&amp;" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:weightSum="10.5" >
+
+            <Button
+                android:id="@+id/prsspxx"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="*"
+                android:text="*" />
+            <Button
+                android:id="@+id/prsspxxx"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="#"
+                android:text="#" />
+            <Button
+                android:id="@+id/prssp15"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="$"
+                android:text="$" />
+
+            <Button
+                android:id="@+id/prssp12"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="‹"
+                android:text="‹" />
+
+            <Button
+                android:id="@+id/prssp13"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="›"
+                android:text="›" />
+
+            <Button
+                android:id="@+id/prssp19"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="/"
+                android:text="/" />
+
+            <Button
+                android:id="@+id/prssp16"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="؟"
+                android:text="؟" />
+
+            <Button
+                android:id="@+id/prssp17"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="«"
+                android:text="«" />
+
+            <Button
+                android:id="@+id/prssp18"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="»"
+                android:text="»" />
+
+            <Button
+                android:id="@+id/prsBackSc"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dip"
+                android:layout_weight="1.5"
+                android:background="@drawable/back_clear"
+                android:fitsSystemWindows="true"
+                android:soundEffectsEnabled="true"
+                android:tag="back" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:baselineAligned="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <Button
+                android:id="@+id/prsScToPrs"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:text="اب" />
+
+            <Button
+                android:id="@+id/prsLngSc"
+                style="@style/kbButtonStyle"
+                android:layout_margin="2dip"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/prsSpaceSc"
+                style="@style/spaceStyle"
+                android:layout_weight="5.5"
+                android:tag=" "
+                android:text=" " />
+
+            <Button
+                android:id="@+id/prscSTSc"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="۔"
+                android:text="۔" />
+
+            <Button
+                android:id="@+id/prsDoneSc"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_margin="3dip"
+                android:layout_weight="1.5"
+                android:background="@drawable/hide_high"
+                android:fitsSystemWindows="true"
+                android:soundEffectsEnabled="true"
+                android:tag="\n" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

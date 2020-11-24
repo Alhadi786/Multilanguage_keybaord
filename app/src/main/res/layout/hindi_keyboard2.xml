@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hebrwKeyboardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="center"
+    android:layout_marginBottom="2dip"
+    android:background="#a0a0a0"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+    <!-- android:background="#A9ABAE" -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="3dip"
+        android:weightSum="4" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:baselineAligned="true"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <Button
+                android:id="@+id/hndTT"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="ऍ"
+                android:text="ऍ" />
+
+            <Button
+                android:id="@+id/hndDD"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="ॅ"
+                android:text="ॅ" />
+
+            <Button
+                android:id="@+id/hndAS"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="औ"
+                android:text="औ" />
+
+            <Button
+                android:id="@+id/hndRE"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="ऐ"
+                android:text="ऐ" />
+
+            <Button
+                android:id="@+id/hndTE"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="ः"
+                android:text="ः" />
+
+            <Button
+                android:id="@+id/hndSN"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="ऋ"
+                android:text="ऋ" />
+
+            <Button
+                android:id="@+id/hndUP"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="ड"
+                android:text="ड" />
+
+            <Button
+                android:id="@+id/hndP2"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="़"
+                android:text="़" />
+
+            <Button
+                android:id="@+id/hndRB"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="ॉ"
+                android:text="ॉ" />
+
+            <Button
+                android:id="@+id/hndLB"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="ृ"
+                android:text="ृ" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:baselineAligned="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:background="@android:color/transparent" />
+
+            <Button
+                android:id="@+id/hndDDT"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="आ"
+                android:text="आ" />
+
+            <Button
+                android:id="@+id/hndSD"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="ई"
+                android:text="ई" />
+
+            <Button
+                android:id="@+id/hndDL"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="ऊ"
+                android:text="ऊ" />
+
+            <Button
+                android:id="@+id/hndCM"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="भ"
+                android:text="भ" />
+
+            <Button
+                android:id="@+id/hndGH"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="ङ"
+                android:text="ङ" />
+
+            <Button
+                android:id="@+id/hndHH"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="घ"
+                android:text="घ" />
+
+            <Button
+                android:id="@+id/hndZD"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="ध"
+                android:text="ध" />
+
+            <Button
+                android:id="@+id/hndKH"
+                style="@style/btnStyle"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:tag="च"
+                android:text="च" />
+
+            <Button
+                android:id="@+id/hndRH"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="ट"
+                android:text="ट" />
+
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight=".5"
+                android:background="@android:color/transparent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <Button
+                android:id="@+id/hndChange2"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dip"
+                android:layout_weight="1.5"
+                android:background="@drawable/change_high"
+                android:fitsSystemWindows="true"
+                android:soundEffectsEnabled="true"
+                android:tag="lower" />
+
+            <Button
+                android:id="@+id/hndZAH"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="ओ"
+                android:text="ओ" />
+
+            <Button
+                android:id="@+id/hndXAH"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="ए"
+                android:text="ए" />
+
+            <Button
+                android:id="@+id/hndSA"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="अ"
+                android:text="अ" />
+
+            <Button
+                android:id="@+id/hndZZ"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="इ"
+                android:text="इ" />
+
+            <Button
+                android:id="@+id/hndRZ"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="उ"
+                android:text="उ" />
+
+            <Button
+                android:id="@+id/hndNGN"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="फ"
+                android:text="फ" />
+
+            <Button
+                android:id="@+id/hndSNS"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="य"
+                android:text="य" />
+
+            <Button
+                android:id="@+id/hndBack2"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dip"
+                android:layout_weight="1.5"
+                android:background="@drawable/back_clear"
+                android:fitsSystemWindows="true"
+                android:soundEffectsEnabled="true"
+                android:tag="back" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:baselineAligned="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <Button
+                android:id="@+id/hnd2ToHndSc"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:text="१२३" />
+
+            <Button
+                android:id="@+id/hndLng2"
+                style="@style/kbButtonStyle"
+                android:layout_margin="2dip"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/hndSpace2"
+                style="@style/spaceStyle"
+                android:layout_weight="5.5"
+                android:tag=" "
+                android:text=" " />
+
+            <Button
+                android:id="@+id/hndST2"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="۔"
+                android:text="۔" />
+
+            <Button
+                android:id="@+id/hndDone2"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_margin="3dip"
+                android:layout_weight="1.5"
+                android:background="@drawable/hide_high"
+                android:fitsSystemWindows="true"
+                android:soundEffectsEnabled="true"
+                android:tag="\n" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

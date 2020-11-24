@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hebrwKeyboardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="center"
+    android:layout_marginBottom="2dip"
+    android:background="#a0a0a0"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+    <!-- android:background="#A9ABAE" -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="3dip"
+        android:weightSum="4" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:baselineAligned="true"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <Button
+                android:id="@+id/frenchAC1"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="Q"
+                android:text="Q" />
+
+            <Button
+                android:id="@+id/frenchAC2"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="W"
+                android:text="W" />
+
+            <Button
+                android:id="@+id/frenchAC3"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="E"
+                android:text="E" />
+
+            <Button
+                android:id="@+id/frenchAC4"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="R"
+                android:text="R" />
+
+            <Button
+                android:id="@+id/frenchAC6"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="T"
+                android:text="T" />
+
+            <Button
+                android:id="@+id/frenchAC5"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="Y"
+                android:text="Y" />
+
+            <Button
+                android:id="@+id/frenchAC7"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="U"
+                android:text="U" />
+
+            <Button
+                android:id="@+id/frenchAC8"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="I"
+                android:text="I" />
+
+            <Button
+                android:id="@+id/frenchAC9"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="O"
+                android:text="O" />
+
+            <Button
+                android:id="@+id/frenchAC10"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="P"
+                android:text="P" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:baselineAligned="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:background="@android:color/transparent" />
+
+            <Button
+                android:id="@+id/frenchAC11"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="A"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/frenchAC12"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="S"
+                android:text="S" />
+
+            <Button
+                android:id="@+id/frenchAC13"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="D"
+                android:text="D" />
+
+            <Button
+                android:id="@+id/frenchAC14"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="F"
+                android:text="F" />
+
+            <Button
+                android:id="@+id/frenchAC15"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="G"
+                android:text="G" />
+
+            <Button
+                android:id="@+id/frenchAC16"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="H"
+                android:text="H" />
+
+            <Button
+                android:id="@+id/frenchAC17"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="J"
+                android:text="J" />
+
+            <Button
+                android:id="@+id/frenchAC18"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="K"
+                android:text="K" />
+
+            <Button
+                android:id="@+id/frenchAC19"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="L"
+                android:text="L" />
+
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:background="@android:color/transparent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <Button
+                android:id="@+id/frenchChangeC"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dip"
+                android:layout_weight="1.5"
+                android:background="@drawable/change_high"
+                android:fitsSystemWindows="true"
+                android:soundEffectsEnabled="true"
+                android:tag="lower"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/frenchAC20"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="Z"
+                android:text="Z" />
+
+            <Button
+                android:id="@+id/frenchAC21"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="X"
+                android:text="X" />
+
+            <Button
+                android:id="@+id/frenchAC22"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="C"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/frenchAC23"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="V"
+                android:text="V" />
+
+            <Button
+                android:id="@+id/frenchAC24"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="B"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/frenchAC25"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="N"
+                android:text="N" />
+
+            <Button
+                android:id="@+id/frenchAC26"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="M"
+                android:text="M" />
+
+            <Button
+                android:id="@+id/frenchBackC"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dip"
+                android:layout_weight="1.5"
+                android:background="@drawable/back_clear"
+                android:fitsSystemWindows="true"
+                android:soundEffectsEnabled="true"
+                android:tag="back" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:baselineAligned="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <Button
+                android:id="@+id/frenchCTofrenchSc"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:text="123" />
+
+            <Button
+                android:id="@+id/frenchLngC"
+                style="@style/kbButtonStyle"
+                android:layout_margin="2dip"
+                android:layout_weight="1"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/frenchSpaceC"
+                style="@style/spaceStyle"
+                android:layout_weight="5.5"
+                android:tag=" "
+                android:text=" " />
+
+            <Button
+                android:id="@+id/frenchCcST"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:tag="."
+                android:text="." />
+
+            <Button
+                android:id="@+id/frenchDoneC"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_margin="3dip"
+                android:layout_weight="1.5"
+                android:background="@drawable/hide_high"
+                android:fitsSystemWindows="true"
+                android:soundEffectsEnabled="true"
+                android:tag="\n" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

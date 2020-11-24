@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <string-array name="colors_array">
+    <item>Plain and Single Color</item>
+    <item>Templates</item>
+    <item>Gallery</item>   
+    </string-array>
+    <string-array name="colors_array2">
+    <item>Text Color</item>
+    <item>Text Shadow Color</item>
+    <item>Text Stroke Color</item>
+    <item>Text Font</item>
+    <item>Select Object</item>
+</string-array>
+<string-array name="array3">
+    <item>Corner</item>
+    <item>Flower</item>
+     <item>Frame</item>
+    <item>Gallery</item>
+    <item>General</item>
+    <item>Heading</item>
+    <item>Islamic</item>
+    <item>Love</item>
+
+</string-array>
+    <string-array name="array_languages">
+
+
+        <item>Arabic</item>
+        <item>English</item>
+        <item>French</item>
+        <item>Hindi</item>
+        <item>Pashto</item>
+        <item>Persian</item>
+        <item>Sindhi</item>
+        <item>Urdu Phonetic</item>
+        <item>Urdu Alphabetic</item>
+
+
+    </string-array>
+</resources>

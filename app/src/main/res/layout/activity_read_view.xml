@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#f2f198"
+
+    tools:context="com.multilanguage.notes.notepad.ReadViewActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+    <TextView
+        android:layout_below="@+id/appbar"
+        android:layout_margin="16dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/memo"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/memo"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:background="@drawable/clock"
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+        <TextView
+            android:textColor="@android:color/black"
+            android:id="@+id/txt_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/bottomlay"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:layout_margin="8dp"
+            android:background="@drawable/delete"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/delete_btn"
+            android:layout_width="45dp"
+            android:layout_height="45dp" />
+        <ImageView
+            android:layout_margin="8dp"
+            android:background="@drawable/edit"
+           android:layout_alignParentRight="true"
+            android:id="@+id/edit_btn"
+            android:layout_width="45dp"
+            android:layout_height="45dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
